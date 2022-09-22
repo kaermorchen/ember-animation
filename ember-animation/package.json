@@ -25,7 +25,8 @@
     "prepack": "rollup --config"
   },
   "dependencies": {
-    "@embroider/addon-shim": "^1.0.0"
+    "@embroider/addon-shim": "^1.0.0",
+    "ember-modifier": "4.0.0-beta.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
@@ -56,7 +57,9 @@
     "version": 2,
     "type": "addon",
     "main": "addon-main.js",
-    "app-js": {}
+    "app-js": {
+      "./modifiers/animate.js": "./dist/_app_/modifiers/animate.js"
+    }
   },
   "exports": {
     ".": "./dist/index.js",
