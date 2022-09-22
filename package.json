@@ -2,9 +2,9 @@
   "name": "ember-animation",
   "version": "0.0.0",
   "private": true,
-  "repository": "",
+  "repository": "https://github.com/kaermorchen/ember-animation",
   "license": "MIT",
-  "author": "",
+  "author": "Stanislav Romanov <kaermorchen@gmail.com>",
   "workspaces": [
     "ember-animation",
     "test-app"
