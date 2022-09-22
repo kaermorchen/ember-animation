@@ -5,9 +5,9 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/kaermorchen/ember-animation",
   "license": "MIT",
-  "author": "",
+  "author": "Stanislav Romanov <kaermorchen@gmail.com>",
   "files": [
     "addon-main.js",
     "dist"
